@@ -6,12 +6,11 @@ var tentativas = 1;
 function exibirTextonaTela(tag, texto) {
 var campo = document.querySelector(tag);
 campo.innerHTML = texto
-responsiveVoice.speak(texto, 'Brazilian Portuguese Female' , {rate:1.2});
 }
 
 function exibirMensagemInicial () {
 exibirTextonaTela('h1', 'jogo do numero secreto');
-exibirTextonaTela('p', 'escolha um número entre 1 e 100');
+exibirTextonaTela('p', 'escolha um número entre 1 e 50');
 }
 
 exibirMensagemInicial();

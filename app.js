@@ -1,5 +1,5 @@
 var listasdeNumerosSorteados = [];
-var numeroLimite = 10; // variavel criada para deixar dinamico    var
+var numeroLimite = 50; // variavel criada para deixar dinamico    var
 var numeroSecreto = numeroAleatorio();
 var tentativas = 1;
 
@@ -11,7 +11,7 @@ responsiveVoice.speak(texto, 'Brazilian Portuguese Female' , {rate:1.2});
 
 function exibirMensagemInicial () {
 exibirTextonaTela('h1', 'jogo do numero secreto');
-exibirTextonaTela('p', 'escolha um número entre 1 e 10');
+exibirTextonaTela('p', 'escolha um número entre 1 e 100');
 }
 
 exibirMensagemInicial();
